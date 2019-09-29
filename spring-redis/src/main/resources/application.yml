@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: spring-redis
+  aop:
+    proxy-target-class: true
+    auto: true
+  datasource:
+    url: jdbc:mysql://192.168.20.190:3306/caytest?useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  cache:
+    type: redis
+  redis:
+    database: 0
+    host: 192.168.20.190
+    port: 6379
+    password:
+mybatis:
+  configuration:
+    cache-enabled: true
+    call-setters-on-nulls: true
+logging:
+  level:
+    org.cay.play: debug
