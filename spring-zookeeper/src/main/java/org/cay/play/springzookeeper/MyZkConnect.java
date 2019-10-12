@@ -19,7 +19,7 @@ public class MyZkConnect {
     public static final String zkServerClusterConnect = "192.168.159.129:2181,192.168.159.129:2182,192.168.159.129:2183";
 
     //单一节点
-    public static final String zkServerSingleConnect = "192.168.159.129:2181";
+    public static final String zkServerSingleConnect = "192.168.20.57:2181";
 
     //超时毫秒数
     public static final int timeout = 3000;
