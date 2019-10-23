@@ -1,0 +1,27 @@
+
+
+
+spring:
+  application:
+    name: spring-pagecache
+  aop:
+    proxy-target-class: true
+    auto: true
+  cache:
+    type: redis
+  redis:
+    database: 0
+    host: 192.168.20.190
+    port: 6379
+    password:
+
+  thymeleaf:
+    cache: false
+logging:
+  level:
+    root: off
+#    root: debug
+#    org.cay.play.springpagecache: debug
+#    org.apache: debug
+server:
+  port: 9090
