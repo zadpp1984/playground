@@ -2,7 +2,7 @@ spring:
   application:
     name: springcloud-sample-provider
   datasource:
-    url: jdbc:mysql://192.168.20.190:3306/caytest?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://192.168.20.125:3306/activiti?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
